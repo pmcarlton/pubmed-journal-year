@@ -2,14 +2,14 @@
 
 #pubmed-journal-year, to show the history of a search term across all journals.
 
+#02013.01.11 19:10 Peter M. Carlton (pcarlton@icems.kyoto-u.ac.jp)
+#Licensed under CC attribution-sharealike http://creativecommons.org/licenses/by-sa/3.0/
+
 #Attribution:
 #based on the code from:
-#Sample Applications of the E-utilities
-#Eric Sayers, PhD.
+#Sample Applications of the E-utilities, by Eric Sayers, PhD.
 #https://www.ncbi.nlm.nih.gov/books/NBK25498/
 #NCBI
-#sayers@ncbi.nlm.nih.gov
-#
 
 use strict;
 use LWP::Simple;
