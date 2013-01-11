@@ -1,10 +1,18 @@
 #!/usr/bin/perl
+
+#pubmed-journal-year, to show the history of a search term across all journals.
+
+#Attribution:
+#based on the code from:
+#Sample Applications of the E-utilities
+#Eric Sayers, PhD.
+#https://www.ncbi.nlm.nih.gov/books/NBK25498/
+#NCBI
+#sayers@ncbi.nlm.nih.gov
+#
+
 use strict;
-
 use LWP::Simple;
-
-# Download PubMed records that are indexed in MeSH for both asthma and 
-# leukotrienes and were also published in 2009.
 
 my $db = 'pubmed';
 my $query = shift;
